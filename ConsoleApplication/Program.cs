@@ -25,7 +25,7 @@ namespace ConsoleApplication
 
             var daysTillChristmas = christmas - today;
 
-            Console.WriteLine("Days until Christmas: " + daysTillChristmas.Days);
+            Console.WriteLine("Days until Christmas: " + daysTillChristmas.Days + "\n");
           
             // Code example from section 2.1 on the book
             double width, height, woodLength, glassArea;
@@ -43,7 +43,7 @@ namespace ConsoleApplication
             glassArea = 2 * (width * height);
 
             Console.WriteLine("The length of the wood is " + woodLength + " feet.");
-            Console.WriteLine("The area of the glass is " + glassArea + " square metres.");
+            Console.WriteLine("The area of the glass is " + glassArea + " square metres.\n");
             Console.WriteLine("Press any key to exit.");
 
             // Wait for key press so screen won't disappear
